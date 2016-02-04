@@ -1,0 +1,19 @@
+{
+  "name": "md-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec 'babel-node index.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+  },
+  "dependencies": {
+    "marked-ast": "^0.2.2",
+    "marked-to-md": "^1.0.1"
+  }
+}
